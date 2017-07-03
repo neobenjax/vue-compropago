@@ -243,6 +243,7 @@ div.temporadas .temporada .detalle-temporada {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 div.temporadas .temporada .detalle-temporada img {
@@ -287,6 +288,7 @@ div.temporadas .temporada .episodios .episodio .imagen img {
 div.temporadas .temporada .episodios .episodio .detalle{
     font-size: 14px;
     line-height: 1.4em;
+    width: calc(100% - 300px);
 }
 div.temporadas .temporada .episodios .episodio .detalle p {
     margin-bottom: 10px;
@@ -370,6 +372,7 @@ div.temporadas .temporada .episodios .episodio .visto > button:hover {
     }
     div.temporadas .temporada .episodios .episodio .detalle{
         font-size: 13px;
+        width: calc(100% - 250px);
     }
     div.temporadas .temporada .episodios .episodio .detalle p {
         margin-bottom: 5px;
@@ -380,6 +383,9 @@ div.temporadas .temporada .episodios .episodio .visto > button:hover {
     div.temporadas .temporada .episodios .episodio .imagen {
         margin: 0 auto 20px;
         max-width: 300px;
+    }
+    div.temporadas .temporada .episodios .episodio .detalle{
+        width: 100%;
     }
 
     div.temporadas .temporada .episodios .episodio .visto {
